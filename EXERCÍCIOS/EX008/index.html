@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de Textos</title>
+    <style>
+        mark{background-color: cyan;}
+    </style>
+</head>
+<body>
+  <h1>Principais Formatações</h1>  
+  <h2>Negrito ou Destaque</h2>
+  <p>Nesta frase temos um <b>termo em negrito </b> usando a tag B. (Nao Semantica) Ou seja, é uma tag de forma, sem sentido. 
+<p>Nesta frase, temos um <strong>termo em destaque </strong>usando a tag STRONG. SEMANTICA, pois não diz respeito apenas ao formato, indica que este trecho tem significado forte e destaque no texto.</p></p>
+<h2>Itálico ou Ênfase</h2>
+<p>Este trecho contém uma <i>parte em Itálico</i> usando o comando CTRL+SHIFT+P, depois buscar por Envelope com Abreviatura ou Wrap with Abbreviation e digitar a letra i (italico) e depois dar Enter. TAG i: NAO SEMANTICA </p>
+<P>Nesta frase temos uma <EM>parte em ênfase</EM>, usando a TAG EM: SEMANTICA. </P>
+<p>Visualmente fica igual, mas não tem semântica, significado. É necessário usar as tags com semântica.</p>
+<h2>Texto Marcado</h2>
+<p>Podemos criar também um <mark>texto marcado</mark> usando a TAG MARK</p>
+<p>Podemos mudar a cor do marcador, mas usando código CSS e não mais HTML. Neste caso, usaremos a tag style dentro da tag MARK. Ficaria assim: <mark style="background-color: chartreuse;">texto marcado</mark> </p>
+<p>Podemos mudar a cor do marcador, mas usando código CSS e não mais HTML. Neste caso, usaremos a tag style dentro da tag MARK. Ficaria assim:</p>
+<p>Se precisar mudar a cor de <mark>todos os marcadores da página</mark>, deixando todas iguais de uma maneira mais fácil e rápida, é preciso criar uma tag de estilo dentro da HEAD. Pode ser depois do título, escrever Style depois Background Color e Escolher a cor. Se quiser que algum trecho fique marcado com outra cor, é preciso usar a tag de CSS no trecho específico apenas. Como deixei no chartreuse (verde).</p>
+<h2>Texto Grande e Pequeno</h2>
+<p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> neste parágrafo. Aqui o BIG ficou obsoleto mas o SMALL não. LETRAS PEQUENAS tem um SENTIDO, como nos contratos.</p>
+<h2>Texto Deletado</h2>
+<p>Podemos marcar um <del>texto como excluído</del> para indicar que ele deve ser lido mas não considerado. Ficará riscado.</p>
+<h2>Texto Inserido</h2>
+<p>Podemos marcar um <ins>texto como inserido</ins> para dar enfase e indicar que ele foi adicionado depois. Ficara sublinhado.</p>
+<p>Não usar mais a tag U para sublinhar, pois ela é de forma e não de sentido. Ou seja, não semântica.</p>
+<h2>Texto Sobrescrito</h2>
+<p>Para inserir coisas tipo: X<sup>20</sup>+3.</p>
+<h2>Texto Subescrito</h2>
+<p>Para inserir coisas tipo H<sub>2</sub>O.</p>
+
+</body>
+</html>
